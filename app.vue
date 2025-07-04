@@ -2,6 +2,7 @@
   <div>
     <ProfileSection />
     <hr>
+    <CareerSection />
   </div>
 </template>
 
