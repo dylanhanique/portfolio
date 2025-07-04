@@ -7,7 +7,11 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prettier": "prettier --write .",
+    "format": "npm-run-all -p lint:fix prettier"
   },
   "dependencies": {
     "@nuxt/eslint": "^1.4.1",
@@ -21,7 +25,9 @@
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
-    "@awmottaz/prettier-plugin-void-html": "^1.9.0",
-    "prettier": "3.6.2"
+    "eslint-plugin-prettier": "^5.5.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "3.6.2",
+    "prettier-plugin-tailwindcss": "^0.6.13"
   }
 }
