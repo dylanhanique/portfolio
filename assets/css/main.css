@@ -1,22 +1,22 @@
-@import "tailwindcss";
-@import "@nuxt/ui";
+@import 'tailwindcss';
+@import '@nuxt/ui';
 
 * {
-  font-family: Poppins;
+	font-family: Poppins;
 }
 
 body {
-    background-color: rgb(235, 235, 235);
+	background-color: rgb(235, 235, 235);
 }
 
 h2 {
-  font-size: 4.5rem;
-  font-weight: 800;
-  line-height: 1;
-  text-transform: uppercase;
-  color: #020173;
+	font-size: 4.5rem;
+	font-weight: 800;
+	line-height: 1;
+	text-transform: uppercase;
+	color: #020173;
 }
 
 .first-word {
-  color: #000000;
+	color: #000000;
 }
