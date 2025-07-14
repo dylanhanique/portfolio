@@ -8,15 +8,3 @@
 body {
 	background-color: rgb(235, 235, 235);
 }
-
-h2 {
-	font-size: 4.5rem;
-	font-weight: 800;
-	line-height: 1;
-	text-transform: uppercase;
-	color: #020173;
-}
-
-.first-word {
-	color: #000000;
-}
