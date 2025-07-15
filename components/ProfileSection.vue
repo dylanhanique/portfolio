@@ -44,18 +44,16 @@
 				un projet spatial d'envergure au sein d'une grande entreprise, où j'ai
 				contribué à des systèmes complexes et innovants.
 			</p>
-			<span
-				class="years-experience my-10 flex items-center leading-4 font-medium text-black"
-			>
+			<span class="my-10 flex items-center leading-4 font-medium text-black">
 				<span class="mr-1 text-5xl font-bold">3</span> Ans <br />d'Expérience
 			</span>
-			<div class="profile-buttons">
+			<div>
 				<UButton
-					class="resume-button mr-5 cursor-pointer rounded-full bg-white px-4 py-2 text-zinc-600 ring-2 ring-gray-800 hover:bg-gray-50"
+					class="mr-5 cursor-pointer rounded-full bg-white px-4 py-2 text-zinc-600 ring-2 ring-gray-800 hover:bg-gray-50"
 					>Télécharger CV</UButton
 				>
 				<UButton
-					class="contact-button cursor-pointer rounded-full bg-white px-4 py-2 text-zinc-600 ring-2 ring-gray-300 hover:bg-gray-50"
+					class="cursor-pointer rounded-full bg-white px-4 py-2 text-zinc-600 ring-2 ring-gray-300 hover:bg-gray-50"
 					>Contact</UButton
 				>
 			</div>
