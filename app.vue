@@ -3,6 +3,8 @@
 		<ProfileSection />
 		<hr />
 		<CareerSection />
+		<hr />
+		<TechnicalSection />
 	</div>
 </template>
 
