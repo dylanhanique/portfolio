@@ -5,6 +5,9 @@
 		<CareerSection />
 		<hr />
 		<TechnicalSection />
+		<hr />
+		<ProjectSection />
+		<hr />
 	</div>
 </template>
 
