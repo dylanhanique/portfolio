@@ -15,17 +15,17 @@
 
 <template>
 	<h2
-		class="mb-15 text-center text-7xl leading-none font-extrabold text-zinc-400 uppercase"
+		class="mb-15 text-center text-4xl leading-none font-extrabold text-zinc-400 uppercase md:text-5xl lg:text-6xl xl:text-7xl"
 	>
 		<span class="text-black">Projets</span><br />
 		personnels
 	</h2>
 
-	<div class="flex gap-30">
+	<div class="mb-25 flex flex-col gap-10 md:flex-row lg:gap-30">
 		<div
 			v-for="(item, index) in projects"
 			:key="index"
-			class="w-1/2 rounded-xl border border-gray-200 bg-gray-100 p-4"
+			class="w-full rounded-xl border border-gray-200 bg-gray-100 p-4"
 		>
 			<NuxtImg
 				preload
@@ -39,7 +39,7 @@
 				<UBadge
 					v-for="(tech, index) of item.technos"
 					:key="index"
-					class="mr-3 ml-2 rounded-full bg-gray-200 p-2 text-xs font-light text-gray-600"
+					class="mr-3 ml-2 rounded-full bg-blue-500/3 p-2 text-xs font-light text-blue-500 shadow-xs ring-1 shadow-blue-500/10 ring-blue-500/50 ring-inset"
 					>{{ tech }}</UBadge
 				>
 			</div>

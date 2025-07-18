@@ -35,19 +35,23 @@
 
 <template>
 	<h2
-		class="mb-15 text-7xl leading-none font-extrabold text-zinc-400 uppercase"
+		class="mb-15 text-4xl leading-none font-extrabold text-zinc-400 uppercase md:text-5xl lg:text-6xl xl:text-7xl"
 	>
 		<span class="text-black">Environnement</span><br />
 		technique
 	</h2>
 
 	<div class="flex flex-wrap">
-		<div v-for="(item, index) in technos" :key="index" class="mb-10 flex w-1/2">
+		<div
+			v-for="(item, index) in technos"
+			:key="index"
+			class="mb-10 flex w-75 sm:w-1/2"
+		>
 			<div class="h-fit rounded-lg bg-gray-100 p-3 leading-none">
-				<UIcon :name="item.icon" size="45" />
+				<UIcon :name="item.icon" class="text-4xl" />
 			</div>
 			<div class="ml-4 flex flex-col justify-center">
-				<span class="text-2xl font-bold">{{ item.title }}</span>
+				<span class="text-lg font-bold md:text-2xl">{{ item.title }}</span>
 				<span>{{ item.description }}</span>
 			</div>
 		</div>
